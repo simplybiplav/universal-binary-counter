@@ -13,4 +13,5 @@ N.B.: Please notice that "reset" is an asynchronous control input (contrary to t
 4. How would you change the function table and design file if you wanted to change the relative priority of the clear and load inputs?
  
 # Design
-The table and the code is the src folder inside vhd file.
+The table and the code is in the src folder inside vhd file.
+Simulation file is in testbench folder.
