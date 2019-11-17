@@ -1,4 +1,4 @@
-# universal-binary-
+# universal-binary-counter
 Consider an 8-bit universal binary counter supporting an asynchronous reset input plus four synchronous inputs to clear the outputs, to enable the operation of the counter, to load an 8-bit initial count value (c_in(7:0)), and to define the counting direction (up / down).
 
 ![Repo List](question/UnivBinCount.png)
@@ -12,3 +12,5 @@ N.B.: Please notice that "reset" is an asynchronous control input (contrary to t
 3. Prove the correctness of your design by simulation in Vivado.
 4. How would you change the function table and design file if you wanted to change the relative priority of the clear and load inputs?
  
+# Design
+The table and the code is the src folder inside vhd file.
